@@ -9,9 +9,9 @@ config = JSON.parse(fs.readFileSync(__dirname+ '/config.json', 'utf-8'))
 # ANSI terminal colors.
 # ----------
 
-red   = '\033[0;31m'
-green = '\033[0;32m'
-reset = '\033[0m'
+red   = '\x33[0;31m'
+green = '\x33[0;32m'
+reset = '\x33[0m'
 
 # Commands
 # ----------
